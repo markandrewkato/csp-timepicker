@@ -1,0 +1,36 @@
+{
+  "private": false,
+  "name": "csp-timepicker",
+  "version": "0.0.1",
+  "description": "A vue component timepicker",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve NiceHandsomeButton.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markandrewkato/vue-timepicker.git"
+  },
+  "keywords": [
+    "vue",
+    "timepicker",
+    "js",
+    "time",
+    "picker"
+  ],
+  "author": "Mark Andrew Kato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markandrewkato/csp-timepicker/issues"
+  },
+  "homepage": "https://github.com/markandrewkato/csp-timepicker#readme",
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
